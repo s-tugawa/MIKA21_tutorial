@@ -11,3 +11,8 @@ MIKA_net.txt の部分を分析したいネットワークのエッジリスト�
 G=nx.read_edgelist(file,nodetype=str,encoding='utf-8',delimiter="\t")
 ```
 のdelimieterを書き換えれば任意の区切り文字のエッジリストを読み込むことができます。
+
+## 練習問題
+以下のページからネットワークのデータをダウンロードして特徴量を計算してみましょう。
+- http://snap.stanford.edu/data/index.html
+- http://networksciencebook.com/translations/en/resources/data.html
