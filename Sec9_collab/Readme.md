@@ -9,3 +9,8 @@ list.txt の発表リストから共著ネットワークを構築するには�
 python3 construct_net.py list.txt
 ```
 テキスト中で用いた MIKA 関連研専ネットワークのデータは匿名化した上で、MIKA_net.txt として置いている。
+## Requirements
+研究会システムのスクレイピングにはBeautifulSoupというモジュールを使用しています。pip でインストールしておいてください。
+```bash
+pip3 install beautifulsoup4
+```
