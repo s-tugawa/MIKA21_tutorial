@@ -21,3 +21,8 @@ hoge のエゴネットワークを構築するには、以下のようにプロ
 python3 make_egonet.py followers/hoge.txt
 ```
 
+## Requirements
+フォロワー (フォロイー) 取得には tweepy というモジュルールが必要です。pip でインストールしてください。
+```bash
+pip3 install tweepy
+```
