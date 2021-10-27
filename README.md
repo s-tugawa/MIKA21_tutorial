@@ -9,6 +9,6 @@
 Python 3.8.3 および NetworkX 2.5 のバージョンで動作確認していますが、細かいバージョンの違いはあまり影響がないと思われます。
 networkx、pandas、numpy、seaborn をインストールしておいてください。
 ```bash
-pip3 install networkx pandas numpy searbon
+pip3 install networkx pandas numpy seaborn
 ```
 プログラム実行時に、その他のモジュールが不足している旨のエラーが出た場合にはその指示に従って必要なモジュールをインストールしてください。
